@@ -1,0 +1,54 @@
+body{
+    background-image:url("Screenshot 2025-10-07 075443.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+    display:flex;
+}
+.title{
+    position: fixed;
+    top:0;
+    font-family:'serif','sans-serif','monospace','cursive';
+    margin-left: 6px;
+    font-size: 70px;
+    font-weight: bolder;
+    color:white;
+}
+.quote{
+    position: absolute;
+    bottom:20%;
+    margin-left: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    color:green;
+}
+.link{
+    position : fixed;
+    top:0;
+    @media(any-hover: hover){
+        a:hover{
+            background-color: red;
+
+        }
+    }
+    margin-top: 50px;
+    margin-left: 1060px;
+    margin-right: 60px;
+    font-family:' Arial', 'Helvetica',' sans-serif';
+    font-size:24px;
+}
+.footer{
+    position: fixed;
+    bottom:0%;
+    width: 100%;
+    background-color:aqua;
+    color:azure;
+    text-align: center;
+    padding:20px;
+}  
+
+
+
+
+    

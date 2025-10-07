@@ -1,0 +1,64 @@
+body{
+    background-image:url('Screenshot 2025-10-07 134450.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+    }
+.title{
+    position: absolute;
+    top: 10;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    margin-left: 5px;
+    font-size: 40px;
+    font-weight: bolder;
+    color:green;
+}
+.link{
+    position: fixed;
+    top:0;
+    @media(any-hover: hover){
+        a:hover{
+            background-color: red;
+        }
+    }
+    margin-top: 50px;
+    margin-left: 1000px;
+    margin-right: 40px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 24px;
+
+
+}
+.grid{
+    margin-left: 1000px;
+    border: black;
+    background-color: violet;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    padding: 30px;
+
+}
+.grid h2{
+    font-size: 40px;
+    color: orange;
+
+
+}
+.grid p{
+    font-size: larger;
+    color:black;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    padding: 11px;
+}
+

@@ -1,0 +1,70 @@
+body{
+    background-image:
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+    display: flex;
+}
+.title{
+    position: relative;
+    top:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 6px;
+    font-size: 70px;
+    font-weight: bolder;
+    color:palevioletred;
+
+}
+.link{
+    position: fixed;
+    top:20;
+    @media(any-hover: hover){
+        a:hover{
+            background-color:rgb(42, 44, 165);
+        }
+    }
+    margin-top: 50px;
+    margin-left: 1030px;
+    margin-right:40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+.menu-box{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 11px;
+    padding: 25px;
+    background-size: 80%;
+    background-color: black;
+}
+.menu-item {
+    background-color: mediumseagreen;
+    background-size: 600px;
+    padding: 2px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid greenyellow;
+}
+.menu-item img {
+    width: 101%;
+    height: 100;
+    border-radius: 5px;
+    margin-bottom: 6px;
+}
+.menu-item h3 {
+    margin: o;
+    font-size: 10px;
+    color:black;
+
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 101%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 9px;
+
+}
